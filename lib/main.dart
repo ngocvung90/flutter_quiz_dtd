@@ -22,7 +22,6 @@ class QuizPage extends StatefulWidget {
 
 class _QuizPageState extends State<QuizPage> {
   int _currentIndex = 0;
-  int _score = 0;
 
   void _answer(bool correct) {
     if (correct) _score++;
